@@ -28,6 +28,7 @@ public class Veiculos {
         this.ano = ano;
     }
 
-
-
+public String toString() {
+        return "Veiculo (marca= " + marca  + ", modelo= " + modelo + ", ano= " + ano + ")";
+   }
 }
