@@ -1,0 +1,19 @@
+public class Carro extends Veiculos {
+
+    private int numeroDePortas;
+
+    public Carro(String marca, String modelo, int ano, int numeroDePortas){
+        super(marca, modelo, ano);
+        this.numeroDePortas = numeroDePortas;
+    }
+    public int getNumeroDePortas(){
+        return numeroDePortas;
+    }
+    public void setNumeroDePortas(int numeroDePortas){
+        this.numeroDePortas = numeroDePortas;
+    }
+    public String toString(){
+        return "Marca do carro: " +getMarca() + ". Modelo: " + getModelo() + ". Ano: " + getAno() + ". Número de portas: " + getNumeroDePortas();
+
+    }
+}
