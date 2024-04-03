@@ -13,7 +13,6 @@ public class Carro extends Veiculos {
         this.numeroDePortas = numeroDePortas;
     }
     public String toString(){
-        return "Marca do carro: " +getMarca() + ". Modelo: " + getModelo() + ". Ano: " + getAno() + ". Número de portas: " + getNumeroDePortas();
-
+        return "Marca (carro: " +getMarca() + " modelo " + getModelo() + " ano: " + getAno() + " número de portas: " + getNumeroDePortas();
     }
 }
